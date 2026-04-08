@@ -30,20 +30,6 @@ ARGUS
 
 ---
 
-## 📁 Struttura del Repository
-
-```
-AI_Phishing_1/
-├── clientEmail.py                    # Client detection (IMAP + LLM)
-├── client_InvioMail.py               # Client generazione e invio (SMTP + LLM)
-├── Llama-2-7b-hf.ipynb               # Notebook training & evaluation (detection e generation)
-├── Generatore_di_prompt_llama_3_1_70b.py  # Generazione dataset per il modello generativo
-├── llama-finetuned-final/            # Pesi fine-tunati (detection)
-└── llama-finetuned-generation/       # Pesi fine-tunati (generation)
-```
-
----
-
 ## ⚙️ Requisiti
 
 - Python 3.x
